@@ -39,4 +39,4 @@ Belarusian State University; Faculty of Applied Mathematics and Computer Science
 
 **English**
 
-I studied this language at school and University.
+I studied this language at school and University..
