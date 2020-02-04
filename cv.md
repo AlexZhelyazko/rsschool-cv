@@ -17,7 +17,7 @@ Start programming in 2018. Confident knowledge of HTML, CSS/SCSS, JavaScript. I 
 
 **Programming practices:** Scrum, Kanban
 
-**Frameworks and Libraries:** Bootstrap
+**Frameworks and Libraries:** Bootstrap, React
 
 **Tools:** GIT **,** VS Code,  Webstorm
 
