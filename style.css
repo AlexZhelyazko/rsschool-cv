@@ -1,0 +1,360 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+}
+
+.container{
+    margin: 0 auto;
+    width: 1024px;
+    height: 100%;
+    border: solid lightgray 1px;
+    border-bottom: none;
+}
+
+.container header {
+    background-color: rgba(13,13,13,0.87);
+    display: none;
+    flex-direction: row;
+    text-align: center;
+    width: 100%;
+    /*border: solid red 2px;*/
+    height: 50px;
+}
+
+.container header div{
+    font-family: 'Hind Madurai', sans-serif;
+    color: white;
+    font-size: 35px;
+    align-self: center
+}
+
+.container section{
+    font-family: 'Hind Madurai', sans-serif;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 100%;
+    /*border: solid green 2px;*/
+    height: 700px;
+}
+
+.container section div:first-child img{
+    width: 250px;
+    height: 260px;
+    border-radius: 140px;
+}
+
+.container section div:nth-child(2){
+    padding-top: 20px;
+    color:rgba(13,13,13,0.87) ;
+    font-size: 35px;
+    font-family: 'Work Sans', sans-serif;
+}
+
+.container section div:nth-child(2) span{
+    font-size: 45px;
+    color: #ffbe1f;
+    text-transform: uppercase;
+    padding-top: 15px;
+}
+
+.container section div:nth-child(3) svg{
+    width: 50px;
+    height: 50px;
+    padding-top: 50px;
+}
+
+.container section div:nth-child(4) ul{
+    justify-content: space-between;
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    /*border: solid black 2px;*/
+    height: 100px;
+    margin-top: 50px;
+}
+
+.container section div:nth-child(4) ul li{
+    font-family: 'Hind Madurai', sans-serif;
+    font-size: 18px;
+    padding: 20px;
+    padding-top: 0px;
+}
+
+.container section div:nth-child(4) ul li span{
+    color: grey;
+    padding-top: 10px;
+}
+
+.container article{
+    text-align: center;
+    width: 100%;
+    /*border: solid saddlebrown 2px;*/
+    height: 100%;
+}
+
+.intro{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 280px;
+    width: 100%;
+    /*border: solid green 2px;*/
+}
+
+.intro div:first-child{
+    font-family: 'Work Sans', sans-serif;
+    display: flex;
+    align-items: center;
+    height: 100px;
+    width: 100%;
+    background-color: rgba(185, 185, 185, 0.42);
+    font-size: 40px;
+    text-align: left;
+    color: #5a5a5a;
+}
+
+.intro div:first-child span{
+    padding-left: 10px;
+}
+
+.intro div:nth-child(2) p{
+    text-align: left;
+    font-size: 25px;
+    padding-top: 17px;
+    line-height: 40px;
+    padding-left: 10px;
+    padding-right: 20px;
+    font-family: 'Hind Madurai', sans-serif;
+}
+
+.skills{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 600px;
+    width: 100%;
+}
+
+.skills>div:first-child{
+    font-family: 'Work Sans', sans-serif;
+    display: flex;
+    align-items: center;
+    height: 100px;
+    width: 100%;
+    background-color: rgba(185, 185, 185, 0.42);
+    font-size: 40px;
+    text-align: left;
+    color: #5a5a5a;
+}
+
+.skills div:first-child span{
+    padding-left: 10px;
+}
+
+.skills>div:nth-child(2){
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding-top: 20px;
+    text-align: left;
+    padding-left: 10px;
+}
+
+.percent_comment{
+    width: 50%;
+    padding-top: 20px;
+    display: flex;
+    flex-direction: row;
+}
+
+.percent_comment span{
+    color: #ffbe1f;
+    font-size: 23px;
+    font-family: Arial;
+}
+
+.percent_comment p{
+    padding-left: 10px;
+    font-size: 20px;
+    font-family: 'Hind Madurai', sans-serif;
+}
+
+.percent{
+    height: 10px;
+    width: 450px;
+    border-radius: 100px;
+    background-color: rgba(185, 185, 185, 0.42);
+}
+
+.percent div{
+    border-radius: 130px;
+    width: 90%;
+    background-color: #ffbe1f;
+    height: 10px;
+}
+
+
+.skills-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.experience>div:first-child{
+    font-family: 'Work Sans', sans-serif;
+    display: flex;
+    align-items: center;
+    height: 100px;
+    width: 100%;
+    background-color: rgba(185, 185, 185, 0.42);
+    font-size: 40px;
+    text-align: left;
+    color: #5a5a5a;
+}
+
+.experience>div:first-child span{
+    padding-left: 10px;
+}
+
+.experience{
+    height: 500px;
+    width: 100%;
+}
+
+.experience>div:nth-child(2){
+    display: flex;
+    flex-direction: column;
+}
+
+.experience_info_1{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.experience_info_1>div{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    text-align: left;
+}
+
+.experience_info_1>div:nth-child(1)>div{
+    margin-top: 2px;
+    width: 19px;
+    height: 19px;
+    border-radius: 200px;
+    margin-left: 10px;
+    background-color: #ffbe1f;
+}
+
+.experience_info_1>div>p{
+    padding-left: 10px;
+    font-size: 18px;
+    color: #5a5a5a;
+    font-family: 'Hind Madurai', sans-serif;
+}
+
+.experience_info_2{
+    border-left: solid lightgray 3px ;
+    margin-left: 19px;
+    margin-top: 5px;
+    text-align: left;
+    font-size: 20px;
+}
+
+.experience_info_2 p{
+    padding-left: 20px;
+    font-family: 'Hind Madurai', sans-serif;
+}
+
+.education>div:first-child{
+    font-family: 'Work Sans', sans-serif;
+    display: flex;
+    align-items: center;
+    height: 100px;
+    width: 100%;
+    background-color: rgba(185, 185, 185, 0.42);
+    font-size: 40px;
+    text-align: left;
+    color: #5a5a5a;
+}
+
+.education>div:first-child span{
+    padding-left: 10px;
+}
+
+.education>div:nth-child(2){
+    margin-top: 20px;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+}
+
+.education>div:nth-child(2)>div{
+    margin-bottom: 12px;
+    width: 60%;
+    margin-left: 10px;
+    margin-top: 5px;
+}
+
+.education>div:nth-child(2) div p{
+    font-family: 'Hind Madurai', sans-serif;
+    padding-top: 12px;
+    padding-bottom: 10px;
+    font-size: 26px;
+}
+
+.education>div:nth-child(2)>div div{
+    width: 200px;
+    height: 7px;
+    background-color: #ffbe1f;
+}
+
+.education>div:nth-child(2)>div span{
+    font-family: Arial;
+    color: #5a5a5a;
+    padding-top: 10px;
+    font-size: 20px;
+}
+
+.container footer{
+    display: flex;
+    justify-content: flex-end;
+    text-align: center;
+    width: 100%;
+    height: 100px;
+}
+
+footer div{
+    position: relative;
+    width: 30%;
+}
+
+footer p:first-child{
+    font-size: 35px;
+    text-align: left;
+    font-family: 'Hind Madurai', sans-serif;
+    color: #5a5a5a;
+
+}
+
+footer p:nth-child(2){
+    z-index: -1;
+    opacity: 70%;
+    position: absolute;
+    left: 40px;
+    font-size: 40px;
+    border-top: solid;
+    bottom: 22px;
+    font-family: 'Hind Madurai', sans-serif;
+    color: #ffbe1f;
+}
